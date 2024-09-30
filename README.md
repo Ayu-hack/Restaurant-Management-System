@@ -34,6 +34,10 @@ The Restaurant Management System is a full-stack application designed to manage 
 - npm (Node Package Manager)
 - MySQL
 
+### Database Setup
+
+Import the SQL database files located in the /sql directory into your MySQL server.
+
 ### Backend Setup
 1. Clone the repository:
    ```sh
