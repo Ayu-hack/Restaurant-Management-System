@@ -2,7 +2,7 @@
 # Restaurant Management System
 
 ## Hacktoberfest 2024
-This repository is participating in Hacktoberfest 2024. Contributions are welcome! Please fork the repository and create a pull request for any improvements or bug fixes.
+This repository is participating in Hacktoberfest 2024. Contributions are welcome! Please fork the repository and create a pull request for any improvements or bug fixes.Please refer to **CONTRIBUTING.md** before submitting a pull request.
 
 ## Overview
 The Restaurant Management System is a full-stack application designed to manage restaurant operations efficiently. It includes features for handling orders, managing the menu, and processing payments.
@@ -71,7 +71,6 @@ Import the SQL database files located in the /sql directory into your MySQL serv
 Once both servers are running, you can access the application at `http://localhost:3000` (or the port you configured).
 
 ## Contributions
-Contributions are welcome! Please fork the repository and create a pull request for any improvements or bug fixes.
-
+Contributions are welcome! Please fork the repository and create a pull request for any improvements or bug fixes. Please refer to **CONTRIBUTING.md** before submitting a pull request.
 ## Contact
 For any questions or feedback, please reach out to **ayushtiwari578@gmail.com**
