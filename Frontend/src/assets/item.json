@@ -1,0 +1,110 @@
+{
+    "menuItems": [
+      {
+        "id":1,
+        "Quantity":1,
+        "name": "Veggie loaded Pizza",
+        "price": 300,
+        "image": "https://images.pexels.com/photos/20115308/pexels-photo-20115308/free-photo-of-top-view-of-a-pizza-on-a-wooden-cutting-board.jpeg"
+        
+      },
+      {
+        "id":2,
+        "Quantity":1,
+        "name": "Veggie Dumlings",
+        "price": 300,
+        "image": "https://images.pexels.com/photos/15310284/pexels-photo-15310284/free-photo-of-indian-dumplings-on-plate.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      },
+      {
+        "id":3,
+        "Quantity":1,
+        "name": "Pasta",
+        "price": 250,
+        "image": "https://images.pexels.com/photos/1487511/pexels-photo-1487511.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      },
+      {
+        "id":4,
+        "Quantity":1,
+        "name": "Gulab Jamun",
+        "price": 80,
+        "image": "https://images.pexels.com/photos/7406888/pexels-photo-7406888.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      },
+      {
+        "id":5,
+        "Quantity":1,
+        "name": "Pani Puri",
+        "price": 40,
+        "image": "https://images.pexels.com/photos/13063302/pexels-photo-13063302.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      },
+      {
+        "id":6,
+        "Quantity":1,
+        "name": "Veg Pulao",
+        "price": 180,
+        "image": "https://images.pexels.com/photos/7593230/pexels-photo-7593230.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      },
+      {
+        "id":7,
+        "Quantity":1,
+        "name": "Kadai Paneer",
+        "price": 350,
+        "image": "https://images.pexels.com/photos/12737799/pexels-photo-12737799.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      },
+      {
+        "id":8,
+        "Quantity":1,
+        "name": "Puri Sabzi",
+        "price": 150,
+        "image": "https://images.pexels.com/photos/8617361/pexels-photo-8617361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      },
+      {
+        "id":9,
+        "Quantity":1,
+        "name": "Chole",
+        "price": 140,
+        "image": "https://images.pexels.com/photos/9287035/pexels-photo-9287035.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      },
+      {
+        "id":10,
+        "Quantity":1,
+        "name": "Pav Bhaji",
+        "price": 180,
+        "image": "https://images.pexels.com/photos/5410400/pexels-photo-5410400.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      },
+      {
+        "id":11,
+        "Quantity":1,
+        "name": "Burger",
+        "price": 150,
+        "image": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      },
+      {
+        "id":12,
+        "Quantity":1,
+        "name": "Hakka Noddles",
+        "price": 180,
+        "image": "https://images.pexels.com/photos/2456435/pexels-photo-2456435.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      },
+      {
+        "id":13,
+        "Quantity":1,
+        "name": "Fried Rice",
+        "price": 250,
+        "image": "https://images.pexels.com/photos/4940832/pexels-photo-4940832.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      },
+      {
+        "id":14,
+        "Quantity":1,
+        "name": "Paneer Butter Masala",
+        "price": 220,
+        "image": "https://images.pexels.com/photos/9609838/pexels-photo-9609838.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      },
+      {
+        "id":15,
+        "Quantity":1,
+        "name": "Dal Makhani",
+        "price": 200,
+        "image": "https://images.pexels.com/photos/12737916/pexels-photo-12737916.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      }
+    ]
+  }
