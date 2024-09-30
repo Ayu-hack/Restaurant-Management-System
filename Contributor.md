@@ -19,6 +19,7 @@ If you have an idea for an enhancement, please create an issue and describe your
 2. If you've added code that should be tested, add tests.
 3. Make sure your code lints.
 4. Create a pull request, and describe the changes you have made.
+5. **Mandatory**: Include screenshots of the enhancements you did.
 
 ### Code Style
 - Follow the existing code style.
