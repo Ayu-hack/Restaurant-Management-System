@@ -2,6 +2,7 @@
 # Restaurant Management System
 
 ## Hacktoberfest 2024
+[![Hacktoberfest 2024](https://img.shields.io/badge/Hacktoberfest-2024-ff6f00?style=flat-square&logo=hacktoberfest&logoColor=white&labelColor=000000)](https://hacktoberfest.digitalocean.com/)
 This repository is participating in Hacktoberfest 2024. Contributions are welcome! Please fork the repository and create a pull request for any improvements or bug fixes.Please refer to **CONTRIBUTING.md** before submitting a pull request.
 
 ## Overview
