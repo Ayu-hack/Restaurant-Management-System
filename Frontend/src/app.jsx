@@ -1,14 +1,9 @@
 import {React,useContext} from "react"
-import {OrderProvider} from "./context/orderContext"
+import {OrderProvider} from "./context/OrderContext"
 import { BrowserRouter as Router, Routes,Route } from "react-router-dom"
 import {Home,Orders} from "./imports"
 
 function App() {
-
-
-
-  
-  
   return (
     <>
     <OrderProvider>
