@@ -1,6 +1,6 @@
 version: '3.9'
-
 services:
+# backend application
   backend:
     image: backend
     build:
@@ -16,6 +16,8 @@ services:
       - mysql
     networks:
       - restaurantnet
+
+# sql server
   mysql:
     image: mysql
     restart: unless-stopped
@@ -33,6 +35,7 @@ services:
     networks:
       - restaurantnet
 
+# frontend application 
   frontend:
     image: frontend
     build:
@@ -47,6 +50,8 @@ services:
     networks:
       - restaurantnet
 
+
+# network bridge for communication between 3 containers 
 networks:
   restaurantnet:
     driver: bridge 
