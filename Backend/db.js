@@ -1,14 +1,14 @@
 const mysql = require('mysql2/promise');
 
 const mysqlpool = mysql.createPool({
-    host: 'localhost',
+    host: 'mysql',
     user: 'root',
-    password: 'admin',
+    password: 'root',
     database: 'restaurant',
 })
 
-// mysqlpool.query('SELECT * FROM Orders')
-// .then((data => console.log(data)))
-// .catch((err) => console.log('db connection falied. \n' +err))
+mysqlpool.query('show tables;')
+.then((data => console.log(data)))
+.catch((err) => console.log('db connection falied. \n' +err))
 
 module.exports = mysqlpool;
