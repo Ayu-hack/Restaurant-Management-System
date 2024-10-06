@@ -20,7 +20,7 @@ async function createOrder(req, res) {
             [CustomerName, ContactNumber, TotalPrice]
         );
 
-        const OrderID = orderResult.insertId;
+        const OrderID = orderResult[0].insertId;
 
         // Insert into the 'item' table
         for (const cartItem of Cart) {

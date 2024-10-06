@@ -1,5 +1,21 @@
-version: '3.9'
 services:
+# sql server
+  mysql:
+    image: mysql
+    restart: unless-stopped
+    volumes:
+      - ./SQL Database/init.sql:/docker-entrypoint-initdb.d/0.sql
+    ports:
+      - 3306:3306
+    expose:
+      - 3306
+    environment:
+      MYSQL_DATABASE: restaurant
+      MYSQL_USER: admin
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_PASSWORD : admin
+    networks:
+      - restaurantnet
 # backend application
   backend:
     image: backend
@@ -17,23 +33,7 @@ services:
     networks:
       - restaurantnet
 
-# sql server
-  mysql:
-    image: mysql
-    restart: unless-stopped
-    volumes:
-      - ./SQL Database/Item.sql:/docker-entrypoint-initdb/0_init.sql
-      - $HOME/dump:/var/lib/mysql
-    ports:
-      - 3306:3306
-    expose:
-      - 3306
-    environment:
-      MYSQL_DATABASE: restaurant
-      MYSQL_USER: admin
-      MYSQL_ROOT_PASSWORD: admin
-    networks:
-      - restaurantnet
+
 
 # frontend application 
   frontend:
