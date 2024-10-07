@@ -65,7 +65,14 @@ function Home ({}) {
     <div className="min-h-screen bg-gradient-to-r from-blue-50 to-gray-100 overflow-hidden">
     <div className="container mx-auto p-4">
         <Itemframes addToCart={addToCart} />
-        <button onClick={clearcart}>clear</button>
+        <div className="flex justify-center items-center">
+  <button
+    onClick={clearcart}
+    className="bg-red-500 text-white font-bold py-2 px-4 rounded hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-300 transition duration-300"
+  >
+    Clear
+  </button>
+</div>
         <Cart cartItems={cartItems} setCartItems={setCartItems}/>
         {isModalOpen ? (isModalOpen && (<Customers isOpen={isModalOpen} onClose={closeModal} onSubmit={placeOrder} cartItems={cartItems} />)):
         <div className="flex justify-center mt-3">
