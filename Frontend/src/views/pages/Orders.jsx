@@ -1,8 +1,19 @@
 import React, { useEffect, useState } from 'react';
+import {LoadingSpinner,Skelleton} from '../../imports'
 
 function Orders() {
   const [orderItems, setOrderItems] = useState([]);
   const [fetchError, setFetchError] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate data fetching
+    const timer = setTimeout(() => {
+      setLoading(false); // Hide spinner/skeleton after "loading"
+    }, 2000);
+
+    return () => clearTimeout(timer); // Cleanup
+  }, []);
 
   useEffect(() => {
     fetch('http://localhost:3000/getorder')
@@ -18,7 +29,15 @@ function Orders() {
   }, [orderItems]);
 
   return (
-    <div className="kitchen-dashboard p-8">
+    <div className="p-4">
+    {loading ? (
+      <div>
+        <LoadingSpinner />  {/* Display spinner while loading */}
+        <Skelleton />        {/* Display skeleton screen */}
+      </div>
+    ) : (
+      <div className="content">
+       <div className="kitchen-dashboard p-8">
       <h1 className="text-3xl font-semibold text-gray-800 mb-6">Order Items</h1>
       {fetchError ? (
         <p className="text-red-600">{fetchError}</p>
@@ -73,6 +92,11 @@ function Orders() {
         </div>
       )}
     </div>
+      </div>
+    )}
+  </div>
+
+   
   );
 }
 
