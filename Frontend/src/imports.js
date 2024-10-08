@@ -6,4 +6,5 @@ import Orders from "./views/pages/Orders"
 import Navbar from "./views/components/Navbar"
 import LoadingSpinner from "./views/components/LoadingSpinner"
 import Skelleton from "./views/components/Skelleton"
-export {Home,Navbar,Orders,Cart,Itemframes,Customers,LoadingSpinner,Skelleton}
+import FavoriteItems from "./views/components/FavoriteItems"
+export {Home,Navbar,Orders,Cart,Itemframes,Customers,LoadingSpinner,Skelleton,FavoriteItems}

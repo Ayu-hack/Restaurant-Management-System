@@ -30,6 +30,14 @@ function Navbar() {
           </Link>
         </li>
         <li>
+          <Link
+            to="/favorites"  // New link for Favorite Items
+            className={`text-lg font-medium hover:text-yellow-400 transition duration-300 transform hover:scale-110 hover:underline ${darkMode ? 'text-white' : 'text-black'}`}
+          >
+            Favorites
+          </Link>
+        </li>
+        <li>
           <button onClick={toggleDarkMode} className="text-lg">
             <FontAwesomeIcon icon={darkMode ? faSun : faMoon} />
           </button>
