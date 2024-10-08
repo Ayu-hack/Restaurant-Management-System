@@ -1,3 +1,27 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Or your preferred font */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.bg-gray-900 {
+    background-color: #1a202c; /* Dark background */
+}
+
+.bg-white {
+    background-color: #ffffff; /* Light background */
+}
+
+.text-white {
+    color: #ffffff; /* Light text for dark mode */
+}
+
+.text-black {
+    color: #000000; /* Dark text for light mode */
+}
+
+/* Additional dark mode styles for other components can be added here */
